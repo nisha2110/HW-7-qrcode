@@ -19,10 +19,14 @@
 - --> docker run -v .:/app hw-7-qrcode
 -  QR code successfully saved to /app/qr_codes/QRCode_20241105180457.png
 1. Add the QR code image that links to my own GitHub homepage.
-  - [QR Code Image] -- 
+  - [QR Code Image] -- https://github.com/nisha2110/HW-7-qrcode/blob/master/qrcode-image.png
+
 2. Add an image of viewing the log of successfully creating the QR code below.
+
   - docker logs my_qrcodes
-    2024-11-05 19:05:32,582 - INFO - QR code successfully saved to /app/qr_codes/QRCode_20241105190532.png
+    - INFO - QR code successfully saved to /app/qr_codes/QRCode_20241105190532.png
+     [Log image] --  https://github.com/nisha2110/HW-7-qrcode/blob/master/log-image.png
+
 ## Setting the arg for the url from the terminal:
 - docker run -p 8080:80 httpd (This command runs a Docker container with the httpd (Apache web server) image.)
 
@@ -33,21 +37,21 @@
 
 ## Basic Docker Commands: 
 - Shows a list of all running containers.
---> docker ps
+    - docker ps
 
 - Removing a Container (for example. some-wordpress)
---> docker stop container_name 
+    - docker stop container_name 
 
 
 - Listing Docker Images
--->docker rm container_name
+    - docker rm container_name
 
--Lists all Docker images available on our machine.
---> docker images
+- Lists all Docker images available on our machine.
+    - docker images
 
 - Removing a Docker Image
---> docker rmi image_name 
+    - docker rmi image_name 
 
 - Viewing Logs of a Container
 
---> docker logs container_name
+    - docker logs container_name
