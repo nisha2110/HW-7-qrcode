@@ -19,13 +19,13 @@
 - --> docker run -v .:/app hw-7-qrcode
 -  QR code successfully saved to /app/qr_codes/QRCode_20241105180457.png
 1. Add the QR code image that links to my own GitHub homepage.
-  - [QR Code Image] -- https://github.com/nisha2110/HW-7-qrcode/blob/master/qrcode-image.png
+  - [QR Code Image] -- https://github.com/nisha2110/HW-7-qrcode/blob/master/qrcode-image.PNG
 
 2. Add an image of viewing the log of successfully creating the QR code below.
 
   - docker logs my_qrcodes
     - INFO - QR code successfully saved to /app/qr_codes/QRCode_20241105190532.png
-     [Log image] --  https://github.com/nisha2110/HW-7-qrcode/blob/master/log-image.png
+     [Log image] --  https://github.com/nisha2110/HW-7-qrcode/blob/master/log-image.PNG
 
 ## Setting the arg for the url from the terminal:
 - docker run -p 8080:80 httpd (This command runs a Docker container with the httpd (Apache web server) image.)
